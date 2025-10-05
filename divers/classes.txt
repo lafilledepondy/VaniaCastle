@@ -1,0 +1,25 @@
+Cartes -> graphe
+
+triggers
+
+Entités/Components :
+    Menus
+    Ennemis
+    Projectiles
+    Interactable(Door | Item)
+    Movable
+    Player(max HP, curr HP, strenght, max mana, curr mana)
+
+Actions(Anim):
+    Attaques(Dégâts, effects, hitbox)
+    Magic/Competences(Cost(type, val), Atq | Summon | Bonus)
+    Summon(Anim, Entity) (example : fireball : pv décroissent à chaque frame/toutes les n frames)
+    Bonus(effect)
+    Jump(vector vers le haut)
+    Interact(target)
+    Use(item)
+    Move(dir)
+    Dash(dir)
+    Push
+    Taking Damage
+
