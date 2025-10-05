@@ -1,0 +1,4 @@
+game/_build
+game/prog/game_js.bc-for-jsoo
+game/prog/game_js.bc.js
+game/prog/game_sdl.exe
